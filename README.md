@@ -21,12 +21,29 @@ Listo: el navegador se abrirá (ej. `http://127.0.0.1:5500`) y se recargará aut
 
 
 ## Uso
-1. Escribe un nombre en el campo de texto.
-2. Haz clic en "Añadir"
-	 - Si el nombre está vacío, aparece una alerta.
-3. Repite para todos los participantes.
-4. Haz clic en "Sortear Amigo" para elegir un nombre al azar.
-5. El resultado aparece en la sección de resultados.
+1) Inicio: vista al abrir el proyecto.
+   
+	![Inicio](assets/inicio.png)
+
+2) Agregar nombre: escribe un nombre en el campo.
+   
+	![Agregando nombre](assets/agregando-nombre.png)
+
+3) Ver lista: los nombres agregados aparecen en la lista.
+   
+	![Visualizando lista](assets/visualizando-lista.png)
+
+4) Error por nombre vacío: si intentas añadir sin escribir, aparece una alerta.
+   
+	![Error nombre vacío](assets/error-nombre-vacio.png)
+
+5) Sortear: haz clic en "Sortear Amigo" para elegir uno al azar.
+   
+	![Resultado](assets/resultado.png)
+
+6) Error por sorteo con lista vacía: si no hay nombres, aparece una alerta.
+   
+	![Error sorteo vacío](assets/error-sorteo-vacio.png)
 
 ## Funcionalidades
 - Agregar nombres a una lista visible.
